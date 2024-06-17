@@ -1,0 +1,16 @@
+[package]
+name = "RustAPJaTel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-http = "3.7.0"
+diesel = { version = "2.0.3", features = ["postgres", "r2d2"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.0", features = ["v4"] }
+bcrypt = "0.15.1"
+dotenv = "0.15.0"
+actix-rt = "2.5.0"
+thoth = "0.1.10"
